@@ -1,12 +1,12 @@
-# 🚕 OLA Ride Booking Analytics — SQL & Power BI
+# OLA Ride Booking Analytics - SQL & Power BI
 
-A data analyst case study on one month of OLA ride-booking data for Bengaluru city — built to simulate a real analyst workflow: raw data → SQL analysis → Power BI dashboard → business insight.
+A data analyst case study on one month of OLA ride-booking data for Bengaluru city - built to simulate a real analyst workflow: raw data → SQL analysis → Power BI dashboard → business insight.
 
 The project answers 10 core business questions (via SQL views) and visualizes booking volume, cancellations, ratings, and revenue across a 5-page interactive dashboard.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 | | |
 |---|---|
@@ -29,15 +29,15 @@ The project answers 10 core business questions (via SQL views) and visualizes bo
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
-- **MySQL** — data modeling, views, aggregation
-- **Power BI** — interactive dashboarding
-- **CSV** — source data (`Bookings.csv`)
+- **MySQL** - data modeling, views, aggregation
+- **Power BI** - interactive dashboarding
+- **CSV** - source data (`Bookings.csv`)
 
 ---
 
-## 🧮 SQL Analysis
+##  SQL Analysis
 
 `Ola_Project.sql` creates 10 reusable views, each answering a specific business question:
 
@@ -47,8 +47,8 @@ The project answers 10 core business questions (via SQL views) and visualizes bo
 | 2 | Average ride distance per vehicle type | `ride_distance_for_each_vehicle` |
 | 3 | Total rides cancelled by customers | `canceled_by_customer` |
 | 4 | Top 5 customers by ride volume | `top_5_customer` |
-| 5 | Driver cancellations — personal/car issues | `ride_cancled_by_driver_p_c_issues` |
-| 6 | Max/min driver ratings — Prime Sedan | `max_min_driver_rating_sedan` |
+| 5 | Driver cancellations - personal/car issues | `ride_cancled_by_driver_p_c_issues` |
+| 6 | Max/min driver ratings - Prime Sedan | `max_min_driver_rating_sedan` |
 | 7 | All UPI-paid rides | `upi_payment` |
 | 8 | Average customer rating per vehicle type | `avg_customer_rating_per_vehicle` |
 | 9 | Total booking value of successful rides | `successful_rides` |
@@ -56,15 +56,15 @@ The project answers 10 core business questions (via SQL views) and visualizes bo
 
 ---
 
-## 📈 Power BI Dashboard
+##  Power BI Dashboard
 
 A 5-page interactive report (`Ola_Project.pbix`):
 
-1. **Overall** — total bookings, booking value, status breakdown, ride volume over time
-2. **Vehicle Type** — booking value, success value, and distance travelled per vehicle
-3. **Revenue** — revenue by payment method, top 5 customers, ride distance distribution per day
-4. **Cancellation** — cancellation reasons split by driver vs. customer
-5. **Ratings** — driver and customer ratings by vehicle type
+1. **Overall** - total bookings, booking value, status breakdown, ride volume over time
+2. **Vehicle Type** - booking value, success value, and distance travelled per vehicle
+3. **Revenue** - revenue by payment method, top 5 customers, ride distance distribution per day
+4. **Cancellation** - cancellation reasons split by driver vs. customer
+5. **Ratings** - driver and customer ratings by vehicle type
 
 ### Key Numbers
 - **1,03,024** total bookings, **₹35M+** total booking value
@@ -75,7 +75,7 @@ A 5-page interactive report (`Ola_Project.pbix`):
 
 ---
 
-## 🚀 Setup
+##  Setup
 
 1. **Database**
    ```bash
@@ -90,7 +90,7 @@ A 5-page interactive report (`Ola_Project.pbix`):
 
 ---
 
-## 📁 Files
+##  Files
 
 | File | Description |
 |---|---|
